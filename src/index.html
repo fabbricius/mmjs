@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Manic Miner in JavaScript</title>
+		<meta name="description" content="Play Manic Miner in your web browser! A JavaScript version of the 1983 classic." />
+		<style type="text/css">
+
+P {
+	font-family: sans-serif;
+}
+
+		</style>
+		<script type="text/javascript">
+
+var mm;
+
+function popup() {
+	mm = window.open("manicminer.html", "mm", "width=576, height=448, status=yes, location=no, menu=no, directories=0, scrollbars=0, toolbar=0");
+}
+
+		</script>
+	</head>
+	<body bgcolor="#CCCCCC" onload="popup()">
+		<p>Work in progress. Play Manic Miner in your web browser! Guide Miner Willy using LEFT, RIGHT and SPACE or a joystick (using my <a href="/toolbox/joystick/">joystick plug-in</a>). The game graphics and layout are taken directly from the Sinclair Spectrum version. The completed project will feature a map and sprite editor.</p>
+		<p>Please let me know if you have problems getting the game to work - I'd especially like to hear from Safari users (1.0 doesn't work but newer versions should) and anyone experiencing slow level loading (where the screen is built up one block at a time rather than all at once).</p>
+		<p>The game window should launch automatically but if it doesn't (you have a pop-up blocker installed, for example) just click here: <button onclick="popup()">Launch</button></p>
+		<p>Plus, here's one of the <a href="eugene/">unofficial Manic Miner sequels</a> running using an older version of the same JavaScript engine.</p>
+		<p><a href="/contact.html">Comments and suggestions?</a></p>
+	</body>
+</html>
